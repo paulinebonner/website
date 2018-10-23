@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu:700');
 
 * {
     font-family: 'Raleway', sans-serif;
@@ -33,7 +33,9 @@ footer{
 
 nav{
     color: #9055A2;
-    float: right;
+    width: 100%;
+    position: fixed;
+    left: 880px;
 }
 
 nav li, nav a{
@@ -50,19 +52,82 @@ footer p{
     padding: 18px;
 }
 
-#contactform {
+.contactcolumn{
     position: relative;
-    top: 100px;
+    top: 130px;
+    left: 10%;
+    width: 35%;
+    display: inline-block;
+    float: left;
     border: 0px solid green;
-    padding: 15px;
-    margin:auto;
-    width: 50%;
+    color: #fff;
+}
+
+div a{
+    text-decoration: none;
+    color: #fff
+}
+
+div a:hover{
+    color: #9055A2;
+}
+
+#gittext{
+    position: relative;
+    top: -35px;
+}
+
+#contactphone{
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: -30px;
+}
+
+#contactemail{
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: -4px;
+}
+
+#contactlinkedin{
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: 20px;
+}
+
+#contactform {
+    position:relative;
+    left: 250px;
+}
+
+.fa-phone{
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    transform: scaleX(-1);
+}
+
+.fa-envelope{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.fa-linkedin{
+    position: relative;
+    top:60px;
+    font-size: 50px;
+    color: #fff;
 }
 
 form{
     border: 0px solid purple;
     position: relative;
-    top: 25px;
+    top: -30px;
 }
 
 form p{
@@ -100,7 +165,15 @@ textarea{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+#contactnum{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 55px;
+}
+
 h3 {
-    font-size: 25px;
+    position: relative;
+    top: -65px;
+    left: 95px;
+    font-size: px;
 }
 
