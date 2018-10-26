@@ -8,13 +8,12 @@
 }
 
 body{
-    background-color: #23B5D3;
+    background-color: #A8A8A8;
     font-size: 20px;
     line-height: 1.3;
 }
 
 header{
-    color:#9055A2;
     background-color: #fff;
     width: 100%;
     height: 75px;
@@ -23,16 +22,16 @@ header{
 
 footer{
     position: fixed;
-    color: #9055A2;
-    background-color: #011638;
+    color: #fff;
+    background-color: #232229;
     width: 100%;
-    height: 50px;
+    height: 40px;
     bottom: 0px;
     text-align: center;
 }
 
 nav{
-    color: #9055A2;
+    color: #9C7633;
     width: 100%;
     position: fixed;
     left: 880px;
@@ -43,13 +42,14 @@ nav li, nav a{
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
+    color: #9C7633;
 }
 
 footer p{
     display: inline-block;
     font-size: 12px;
     text-decoration: none;
-    padding: 18px;
+    padding: 15px;
 }
 
 .contactcolumn{
@@ -103,10 +103,16 @@ div a:hover{
     left: 250px;
 }
 
+.contacticon{
+    padding:15px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 90px;
+}
 .fa-phone{
     position: relative;
     font-size: 40px;
-    color: #fff;
+    color: #232229;
     transform: scaleX(-1);
 }
 
@@ -153,7 +159,7 @@ textarea{
 }
 
 #contactbutton{
-    background-color: yellowgreen;
+    background-color: #9C7633;
     border: none;
     color: white;
     text-align: center;
